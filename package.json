@@ -1,0 +1,16 @@
+{
+  "name": "protractorfactorialcalculator",
+  "version": "1.0.0",
+  "description": "Protractor Project Factorial Calculator ",
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "factorial": "^1.0.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "mathjs": "^7.1.0",
+    "protractor": "^7.0.0",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  },
+  "devDependencies": {},
+  "author": "bruno figueiredo",
+  "license": "ISC"
+}

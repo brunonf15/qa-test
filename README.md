@@ -1,10 +1,32 @@
-# Welcome
+# Protractor Project Factorial Calculator 
+This project is to test the Factorial Calculator.
 
-On http://test.getgrex.com/ is a web page that calculates a factorial from a number. The page has a few bugs on it, your test is to find those bugs and create some automated tests to detect them.
+install the dependencies
 
-## To do
+```
+npm i
+```
 
-- Fork this repository
-- Test the website and fill out a short summary of the bugs and reproduction steps
-- Create a small suite of automated tests that follows the summary
+Run the test:
+```
+protractor startTests.js
+```
 
+Note1: Is mandatory have Java and NodeJS installed on you enviroment and is recomended install the dependencies in global mode
+
+To install, run these commands:
+
+npm install -g protractor 
+npm install -g protractor-jasmine2-screenshot-reporter
+npm install -g jasmine-allure-reporter
+npm install -g allure-commandline
+
+Note2: To generate allure report, go to allure-results folder and type:
+
+```
+allure server $folder
+```
+
+Note3: To open a simple report, go to screenshots folder and open my-report.html
+
+# getgrex factorial calculator
